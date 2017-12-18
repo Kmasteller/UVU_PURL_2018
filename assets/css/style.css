@@ -1,0 +1,16 @@
+body {
+    background-color: #275d38;
+}
+
+#navbar {
+    padding: 0 20 0 20;
+}
+
+#span6 {
+    text-align: right;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    letter-spacing: .1em;
+    font-size: 18px;
+    float: center;
+}

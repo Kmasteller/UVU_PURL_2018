@@ -98,3 +98,24 @@ ul#horizontal-list.imageBanner {
     font-size: 24px;
 }
 
+select#F3 {
+    font-family: Arial, "Helvetica", Helvetica, sans-serif;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #a7a9ac;
+}
+
+input#F5 {
+    font-family: Arial, "Helvetica", Helvetica, sans-serif;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #a7a9ac;
+    margin-left: 10px;
+}
+
+input#F6 {
+    font-family: Arial, "Helvetica", Helvetica, sans-serif;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #a7a9ac;
+}

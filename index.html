@@ -48,13 +48,21 @@
 	<h6><strong>Utah Valley University is offering discounted tuition to select out-of-state students.</strong> As a <span id="variableState">[State]</span>
 	resident, you could pay between <span id="variableMerit">[Merit Tuition]</span> and<span id="variableOutreach">[Outreach Tuition]</span> per semester* to attend
 	Utah's largest institutions of higher learning.</h6>
-	<h6>To calculate your estimated tuition rate, we just need you to answe a couple of questions:</h6>
+	<h6>To calculate your estimated tuition rate, we just need you to answer a couple of questions:</h6>
 	<br>
 	<div id="formMain">
 		<h4><i>Did you take the SAT or ACT?</i></h4>
 		<h6><i>(if you've taken both, enter the highest score)</i></h6>
+		<select style="width: 75px; color: black;" name="F3" id="F3">
+			<option value="ACT">ACT</option>
+			<option value="SAT">SAT</option>
+			"&nbsp; "
+			<input style="color: black;" type="text" name="F5" id="F5" value="Enter score (e.g. 29)" size="24" onfocus="this.value=''">
+		</select>
 	</div>
-
+	<br>
+	<h4><i>What is your current, unweighted high school GPA?</i></h4>
+	<input style="color: black;" type="text" name="F6" id="F6" value="Enter GPA (e.g. 3.43)" size="24" onfocus="this.value=''">
 </div>
 
 </body>

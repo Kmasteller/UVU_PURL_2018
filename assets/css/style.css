@@ -2,8 +2,23 @@ body {
     background-color: #275d38;
 }
 
-#navbar {
-    padding: 0 20 0 20;
+.navbar {
+    margin-bottom: 0px;
+}
+
+.UVULogo {
+    float: left;
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.UVUTitle {
+    float: center;
+    list-style: none;
+    padding-top: 35px;
+    text-align: center;
+    padding-right: 175px;
 }
 
 #span6 {
@@ -14,3 +29,72 @@ body {
     font-size: 18px;
     float: center;
 }
+
+#imageBanner {
+    background-color: white;
+}
+
+.imageBanner {
+    list-style: none;
+    width: 100%;
+}
+
+.table {
+    display: table;
+    display: inline;
+    margin: 0;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding-left: 0px;
+}
+
+ul#horizontal-list.imageBanner {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bannerImages {
+    width: 33%;
+    margin: auto;
+    padding: 5px;
+}
+
+#variableName {
+    font-family: 'Graduate', cursive;
+    font-size: 36px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#variableName.row {
+    padding: 0;
+    margin: 0;
+}
+
+#namePlaceholder {
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 0px;
+    margin-bottom: 25px;
+}
+
+#containerMain {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: .02em;
+    padding-top: 50px;
+    max-width: 750px;
+}
+
+#containerMain h6 {
+    font-size: 18px;
+}
+
+#containerMain h4 {
+    font-size: 24px;
+}
+

@@ -101,14 +101,14 @@ ul#horizontal-list.imageBanner {
 select#F3 {
     font-family: Arial, "Helvetica", Helvetica, sans-serif;
     height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid #a7a9ac;
 }
 
 input#F5 {
     font-family: Arial, "Helvetica", Helvetica, sans-serif;
     height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid #a7a9ac;
     margin-left: 10px;
 }
@@ -116,6 +116,37 @@ input#F5 {
 input#F6 {
     font-family: Arial, "Helvetica", Helvetica, sans-serif;
     height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid #a7a9ac;
+}
+
+button#submit {
+    font-family: Arial, "Helvetica", Helvetica, sans-serif;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid #FFF;
+    background-color: #48a23f;
+    margin-left: 7px;
+}
+
+button#submit:hover {
+    background-color: #2e6326;
+}
+
+#videoHolder {
+    background-color: #1e482c;
+}
+
+#video {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+#disclaimer {
+    font-family: Arial, "Helvetica", Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
 }

@@ -1,5 +1,6 @@
 body {
     background-color: #275d38;
+    overflow: scroll;
 }
 
 .navbar {
@@ -61,6 +62,31 @@ ul#horizontal-list.imageBanner {
     display: inline;
     padding: 0px;
     margin: 0px;
+}
+
+ul#horizontal-list.popupLinks {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#popupButton {
+    font-family: Arial, "Helvetica", Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid #FFF;
+    background-color: #48a23f;
+    color: white;
+    width: 29%;
+}
+
+#popup {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+popupImage {
+    margin-bottom: 50px;
 }
 
 #variableName {
